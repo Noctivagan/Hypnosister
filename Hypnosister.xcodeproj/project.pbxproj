@@ -19,6 +19,8 @@
 		E2CDB27719C8AA9C00EA68B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CDB25F19C8AA9C00EA68B2 /* UIKit.framework */; };
 		E2CDB27F19C8AA9C00EA68B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2CDB27D19C8AA9C00EA68B2 /* InfoPlist.strings */; };
 		E2CDB28119C8AA9C00EA68B2 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CDB28019C8AA9C00EA68B2 /* HypnosisterTests.m */; };
+		E2CDB28C19C8AB8E00EA68B2 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CDB28B19C8AB8E00EA68B2 /* BNRHypnosisView.m */; };
+		E2CDB28E19C8B79000EA68B2 /* 320px-Batman_symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CDB28D19C8B79000EA68B2 /* 320px-Batman_symbol.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		E2CDB27C19C8AA9C00EA68B2 /* HypnosisterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnosisterTests-Info.plist"; sourceTree = "<group>"; };
 		E2CDB27E19C8AA9C00EA68B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2CDB28019C8AA9C00EA68B2 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
+		E2CDB28A19C8AB8E00EA68B2 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		E2CDB28B19C8AB8E00EA68B2 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
+		E2CDB28D19C8B79000EA68B2 /* 320px-Batman_symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "320px-Batman_symbol.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,8 @@
 		E2CDB24F19C8AA9C00EA68B2 = {
 			isa = PBXGroup;
 			children = (
+				E2CDB28A19C8AB8E00EA68B2 /* BNRHypnosisView.h */,
+				E2CDB28B19C8AB8E00EA68B2 /* BNRHypnosisView.m */,
 				E2CDB26119C8AA9C00EA68B2 /* Hypnosister */,
 				E2CDB27A19C8AA9C00EA68B2 /* HypnosisterTests */,
 				E2CDB25A19C8AA9C00EA68B2 /* Frameworks */,
@@ -118,6 +125,7 @@
 		E2CDB26219C8AA9C00EA68B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E2CDB28D19C8B79000EA68B2 /* 320px-Batman_symbol.png */,
 				E2CDB26319C8AA9C00EA68B2 /* Hypnosister-Info.plist */,
 				E2CDB26419C8AA9C00EA68B2 /* InfoPlist.strings */,
 				E2CDB26719C8AA9C00EA68B2 /* main.m */,
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2CDB26619C8AA9C00EA68B2 /* InfoPlist.strings in Resources */,
+				E2CDB28E19C8B79000EA68B2 /* 320px-Batman_symbol.png in Resources */,
 				E2CDB26E19C8AA9C00EA68B2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +251,7 @@
 			files = (
 				E2CDB26819C8AA9C00EA68B2 /* main.m in Sources */,
 				E2CDB26C19C8AA9C00EA68B2 /* BNRAppDelegate.m in Sources */,
+				E2CDB28C19C8AB8E00EA68B2 /* BNRHypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
